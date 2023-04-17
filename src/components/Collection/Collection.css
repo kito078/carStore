@@ -1,0 +1,46 @@
+:root {
+    --color-primary: #f14141 !important;
+    --color-secondary: #ffc122 !important;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+
+
+
+.collection__card{
+  
+    max-width: 420px;
+    margin: auto;
+}
+
+.collection__image img{
+    max-width: 200px;
+    margin: auto;
+}
+
+.collection__title{
+    font-size: 1.4rem !important;
+    font-weight: 300 !important;
+    color: #555;
+}
+
+.collection__price{
+    font-size: 1.7rem;
+}
+
+.collection__page{
+    position: absolute;
+    background: #f76868 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.collection__page h5{
+    color: #fff;
+}

@@ -1,0 +1,53 @@
+:root {
+    --color-primary: #f14141 !important;
+    --color-secondary: #ffc122 !important;
+    --color-headings: #262626!important;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    margin: 7rem 0;
+    height: 20rem;
+    color: #fff !important;
+    padding: 2rem ;
+    background-image: url('../../images/cms-banner-03.jpg');
+    background-repeat: no-repeat;
+  background-position: center;
+    
+}
+
+.newsletter__header{
+    
+}
+
+.newsletter  h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.9rem;
+    color: #fff !important;
+}
+.newsletter span{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+    background: var(--color-secondary);
+}
+
+
+@media screen and (min-width: 992px){
+    .newsletter  h2{
+        font-size: 3rem;
+       
+    }
+    .newsletter span{
+        font-size: 2.2rem;
+      
+    }
+    
+    
+}

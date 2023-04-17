@@ -1,0 +1,177 @@
+:root {
+  --color-primary: #f14141 !important;
+  --color-secondary: #ffc122 !important;
+  --color-headings: #262626!important;
+  --color-body: #918ca4;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
+
+html{
+  font-size: 62.5%;
+}
+*{
+  box-sizing: border-box;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0 1rem;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.navbar.sticky {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex ;
+  align-items: center;
+  justify-content: space-between ;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.brand img {
+  margin-left: 0.5rem;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 1.7rem;
+  object-fit: contain;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.menu li {
+  margin-top: 1rem;
+  padding-left: 4.5rem;
+  font-size: 1.6rem;
+
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.icon-container{
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background: #fce2e7;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.icon-num{
+  background-color: #340410;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 26px;
+  bottom: 15px;
+  color: #fff;
+  font-weight: 400;
+  z-index: 1;
+  border-radius: 100%;
+  font-size: 1.3rem;
+}
+
+
+.toggler {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+   padding-top: 1.9rem !important;
+   padding-bottom: 1.9rem !important;
+  
+  }
+  /* .icon-nav{
+    margin-right: 2rem !important;
+  }
+  */
+  .brand img {
+     
+      max-width: 150px;
+      margin: auto;
+    }
+  .menu {
+    display: none;
+  }
+
+  .menu ul{
+      flex-direction: column;
+      padding-left: 0;
+  }
+  .menu li {
+      margin-top: 3rem;
+      padding-left: 0;
+    
+    }
+  
+  .toggler {
+    background: var(--color-primary);
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    margin-right: 1rem;
+    padding: auto;
+    
+  }
+  .toggler svg{
+    font-size: 2.3rem !important;
+  
+  }
+  
+  .menu.open {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    
+}
+
+

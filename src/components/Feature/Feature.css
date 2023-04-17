@@ -1,0 +1,60 @@
+
+:root {
+    --color-primary: #f14141 !important;
+    --color-secondary: #ffc122 !important;
+    --color-headings: #262626!important;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+  
+  
+  
+.card-body{
+    color: #7c8ba1 !important;
+}
+.card-body svg {
+    color: coral !important;
+    margin: auto;
+    font-size: 3rem;
+    transition: all 0.3s ease-in;
+}
+.card-body svg:hover {
+    font-size: 2rem;
+}
+.card-body h3 {
+    font-weight: 700;
+}
+
+
+
+.feature__icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcd2ef;
+    background: var(--color-primary);
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.feature__title {
+    font-size: 2.4rem;
+}
+
+.feature2__card {
+    max-width: 400px;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 992px){ 
+    .feature2{
+        margin-top: 10rem;
+    }
+}

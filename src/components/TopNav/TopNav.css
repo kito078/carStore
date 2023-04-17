@@ -1,0 +1,46 @@
+.topnav {
+    background-color: #e70d3c;
+    overflow: hidden;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    display: none;
+  }
+ 
+ .topnav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+ }
+ 
+  
+  .topnav div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topnav svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+/* 
+  .topnav__body svg{
+    font-size: 0.5rem !important;
+  }
+  
+  .topnav p {
+    margin: 0;
+    font-size: 14px;
+  } */
+    
+  /* .topnav.hidden {
+    transform: translateY(-100%);
+  }
+   */

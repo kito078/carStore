@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.chemical__box{
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    background: #c71719;
+    height: 200px;
+}
+
+.chemical__text{
+    width: 180px;
+    left: 0;
+    z-index: 1;
+    text-align: left;
+   color: #fff;
+}
+
+.chemical__image{
+    position: absolute;
+    max-width: 200px;
+    margin: auto;
+    right: 0;
+    bottom: 10px;
+}
+
+.chemical-btn{
+    font-size: 1.8rem !important;
+    background: yellow !important;
+    color: #000 !important;
+}

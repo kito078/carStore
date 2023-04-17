@@ -1,0 +1,47 @@
+
+ol, ul {
+    padding-right: 2rem;
+  }
+  .cart__list ul{
+  
+    margin-left: 0 !important;
+  }
+  
+  .cart__list{
+
+    /* height: 35rem; */
+   
+    margin-left: 0 !important;
+  }
+  
+ 
+    
+ 
+  
+    @keyframes slide-down{
+      from{
+          opacity: 0;
+          transform: translateY(-3rem);
+      }
+      to{
+          opacity: 1;
+          transform: translateY(0);
+      }
+    }
+  
+  
+    .cart-price{
+      font-size: 2.8rem !important;
+  }
+
+
+  .cart__empty__body{
+    background: #555;
+    padding: 2rem 1rem;
+    border-top: 3px solid red;
+  
+  }
+  .cart__empty__body h5{
+    font-size: 1.8rem !important;
+  
+  }

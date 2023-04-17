@@ -1,0 +1,81 @@
+:root {
+    --color-primary: #f14141 !important;
+    --color-secondary: #ffc122 !important;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+
+.brandingItem {
+    margin-top: 5rem !important;
+    max-width: 330px;
+    margin: auto;
+}
+.brandingItem__header{
+    position: relative;
+    max-width: 330px;
+    margin: auto;
+}
+
+.brand-page{
+    position: absolute;
+    background-color: var(--color-primary);
+    width: 90px;
+    height: 10px ;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 18px;
+    right: 18px;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.brand-page h5{
+    color: #fff;
+    font-size: 1.2rem !important;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.read-more {
+    background: none !important;
+    border: none !important;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+span.read-more__arrow svg{
+  
+    font-size: 2rem !important;
+   
+}
+
+.brandingItem img{
+    max-width: 330px;
+    margin: auto;
+    height: 220px;
+    border-radius: 15px !important;
+
+ 
+    object-fit: cover;
+}
+
+.brandingItem__body h3{
+    color: #000;
+    font-weight: 500;
+    margin-top: 1.7rem;
+    font-size: 1.8rem;
+}
+.brandingItem__body p{
+    font-size: 1.4rem;
+}
+
+.brandingItem__body{
+    margin: 0 0.3rem;
+    
+}

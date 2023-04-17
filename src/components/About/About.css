@@ -1,0 +1,16 @@
+.showcase{
+    background: #e6e8ea;
+    height: 20rem;
+    background-image: url('../../images/car.jpg') ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center ;
+    background-size: cover; 
+}
+.showcase h2{
+    font-size: 3rem;
+
+}
+.showcase h5{
+    font-size: 1.6rem;
+}

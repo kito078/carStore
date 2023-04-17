@@ -1,0 +1,13 @@
+
+.saver{
+  width: 100%;
+    background: #e6e8ea;
+    margin:  auto;
+    height: 30rem;
+    color: #fff !important;
+    padding: 2rem ;
+    background-image: url('../../images/b-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
