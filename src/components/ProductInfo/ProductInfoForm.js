@@ -39,7 +39,7 @@ function ProductInfoForm(props) {
       />
       <Button
         type="submit"
-        className="btn-button deals-btn rounded-pill px-5 py-2 mb-lg-5 ms-4 mb-lg-0 mt-lg-1 ms-lg-3"
+        className="btn-button deals-btn rounded-pill px-5 py-2 mb-lg-0 ms-4 mb-lg-0 mt-lg-1 ms-lg-3"
         color="primary"
       >
         Add To Cart

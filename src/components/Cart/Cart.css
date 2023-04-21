@@ -20,8 +20,9 @@ ol, ul {
     
   .calc-cont{
     display: flex;
-    align-items: center;
+    align-items: start;
     margin-top: 4rem;
+    margin-left: 1.8rem;
   }
 
   
@@ -47,6 +48,7 @@ ol, ul {
     .calc-cont{
       display: flex;
       align-items: end;
+      margin-right: 1.8rem;
     }
   
     

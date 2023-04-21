@@ -48,7 +48,7 @@ function Cart(props) {
           {cartItems}
           {cartCtx.items.length > 0 && (
             <div className="calc-cont d-flex flex-column alight-items-right justify-content-end text-right">
-              <div>
+              <div className=" ">
                 <h1>Total: {totalAmount}</h1>
                 <Button className="news-btn mt-2" variant="success">
                   Order Now!

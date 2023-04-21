@@ -35,7 +35,7 @@ function ProductInfo({ product }) {
   };
   const handleClickOne = () => {
     setText({
-      title: "10kg",
+      title: product ? product.stars : "",
       desc: product ? product.description : "",
     });
   };
