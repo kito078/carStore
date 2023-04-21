@@ -30,6 +30,14 @@ html{
   font-weight: bold;
   color: #918ca4;
 }
+.my-link-2 {
+  text-decoration: none;
+  color: #918ca4;
+}
+.my-link-2:hover {
+  text-decoration: none;
+  color: #918ca4;
+}
 
 
 

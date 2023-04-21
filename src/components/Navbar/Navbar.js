@@ -71,14 +71,14 @@ function Navbar() {
           </ul>
         </div>
         <div className="icons ">
-          <Link to="/cart">
+          <Link to="/cart" className="my-link-2">
             <span className="icon-container">
               <span className="icon-num">{numberOfItems}</span>
               <BsCart3 />
             </span>
           </Link>
 
-          <Link>
+          <Link className="my-link-2">
             <span className="icon-container icon-nav">
               <span className="icon-num">0</span>
               <FiHeart />

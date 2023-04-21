@@ -8,6 +8,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
+import footImage from "../../images/brand.png";
 
 import "./Footer.css";
 
@@ -17,14 +18,8 @@ function Footer() {
       <div className="container">
         <Row className="align-items-center justify-content-center  text-lg-start  mx-auto  ">
           <Col lg className="footer__header ">
-            <h5 className="mb-4 d-flex">
-              <span className="footer-brand me-1 ">
-                <BsFillMoonStarsFill />
-              </span>
-              <span className="brand-chake mt-3">Chake</span>
-              <span className="brand-store mt-3">Store</span>
-            </h5>
-            <p className="ms-3 text-start">
+            <img src={footImage} alt="" />
+            <p className="ms-3 mt-4 text-start">
               Copyright &copy; 2020 Mosh Hamedani
             </p>
             <div className="my-5">
@@ -75,20 +70,20 @@ function Footer() {
             <h5 className="mb-5 mb-lg-3">Contact Us</h5>
             <p>
               <ImLocation2 />
-              <span className="ms-3">Johannesburg Beria Doris street n 21</span>
+              <span className="ms-3">Johannesburg beria Yeta street n 60</span>
             </p>
 
             <p>
-              <a href="http://kabamechack@gmail.com">
+              <a href="">
                 <MdEmail />
-                <span className="ms-3">kabamechack@gmail.com</span>
+                <span className="ms-3">kitokessian07@gmail.com</span>
               </a>
             </p>
 
             <p>
               <a href="08766575556">
                 <BsTelephoneFill />
-                <span className="ms-3">07843643646</span>
+                <span className="ms-3">0849614484</span>
               </a>
             </p>
           </Col>

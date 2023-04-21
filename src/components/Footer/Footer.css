@@ -14,7 +14,10 @@
     margin-top: 8rem;
     
 }
-
+.footer__header img{
+    max-width: 160px;
+    margin: auto;
+}
 .footer-brand{
   font-size: 3rem;
   color: var(--color-primary);

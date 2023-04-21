@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Banner() {
   return (
-    <div className="mx-3">
+    <div className="mx-">
       <div className="banner-container">
         <div className="px-3 pt-5">
           <Row className="banner-container py-5">
