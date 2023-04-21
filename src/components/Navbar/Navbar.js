@@ -63,7 +63,7 @@ function Navbar() {
                 Shop
               </Link>
             </li>
-            <li>
+            <li className="last-link">
               <Link to="/about" className="my-link">
                 About
               </Link>
