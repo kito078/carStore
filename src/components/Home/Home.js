@@ -13,7 +13,10 @@ import Category from "../Category/Category";
 import "./Home.css";
 import Collection from "../Collection/Collection";
 
-function Home() {
+function Home(props) {
+  const onProductHandler = (product) => {
+    props.onSaveProduct(product);
+  };
   return (
     <div className="home">
       <div className="container"></div>
@@ -26,7 +29,7 @@ function Home() {
       <Easy />
       <div className="container">
         <FeatureOne />
-        <Product />
+        <Product onProduct={onProductHandler} />
         <FeatureOne />
         <Branding />
       </div>

@@ -24,6 +24,21 @@ html{
 
 }
 
+.my-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #918ca4;
+}
+
+
+
+
+
+
+
+
+
 .navbar.sticky {
   position: fixed;
   background-color: #fff;

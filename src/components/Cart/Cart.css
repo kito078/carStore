@@ -1,4 +1,7 @@
-
+.cart{
+  height: auto;
+  overflow-y: scroll;
+}
 ol, ul {
     padding-right: 2rem;
   }
@@ -8,26 +11,19 @@ ol, ul {
   }
   
   .cart__list{
-
-    /* height: 35rem; */
-   
+    padding: 0 !important;
+    height: 55rem;
     margin-left: 0 !important;
   }
   
  
     
- 
-  
-    @keyframes slide-down{
-      from{
-          opacity: 0;
-          transform: translateY(-3rem);
-      }
-      to{
-          opacity: 1;
-          transform: translateY(0);
-      }
-    }
+  .calc-cont{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
   
   
     .cart-price{
@@ -36,7 +32,7 @@ ol, ul {
 
 
   .cart__empty__body{
-    background: #555;
+    background: #e6e6e6;
     padding: 2rem 1rem;
     border-top: 3px solid red;
   
@@ -44,4 +40,22 @@ ol, ul {
   .cart__empty__body h5{
     font-size: 1.8rem !important;
   
+  }
+
+
+  @media screen and (min-width: 575px){ 
+    .calc-cont{
+      display: flex;
+      align-items: end;
+    }
+  
+    
+  }
+  @media screen and (min-width: 992px){ 
+    .cart__list{
+      padding: 2rem !important;
+      height: 55rem;
+      margin-left: 0 !important;
+    }
+    
   }

@@ -1,27 +1,48 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import ImageOne from "../../images/bottle.jpg";
 import "./ProductInfo.css";
 import { Button, Row, Col, ButtonGroup } from "reactstrap";
+import ProductInfoForm from "./ProductInfoForm";
+import CartContext from "../../store/cart-context";
 
-function ProductInfo() {
+function ProductInfo({ product }) {
   const [text, setText] = useState({ title: "", desc: "" });
+
+  const cartCtx = useContext(CartContext);
+
+  // const price = `$${product.price.toFixed(2)}`;
+  const price = product ? `$${product.price.toFixed(2)}` : "";
+  console.log("Product: ", product);
+
+  const addToCartHandler = (amount) => {
+    cartCtx.addItem({
+      id: product.id,
+      title: product.title,
+      price: product.price,
+      img: product.img,
+      name: product.name,
+      amount: amount,
+      description: product.description,
+      bage: product.bage,
+    });
+  };
 
   const handleClick = () => {
     setText({
-      title: "Description",
-      desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t",
+      title: product ? product.title : "",
+      desc: product ? product.description : "",
     });
   };
   const handleClickOne = () => {
     setText({
-      title: "Additional information",
-      desc: "WEIGHT	10 kg",
+      title: "10kg",
+      desc: product ? product.description : "",
     });
   };
   const handleClickTwo = () => {
     setText({
-      title: "2 reviews for Fresh Strawberry",
-      desc: "Cool and fresh fruits",
+      title: product ? product.title : "",
+      desc: product ? product.description : "",
     });
   };
 
@@ -30,21 +51,21 @@ function ProductInfo() {
       <div className="container productInfo ">
         <Row className="productInfo__card mx-3 mx-md-0">
           <Col md className="productInfo__image">
-            <img src={ImageOne} alt="" />
+            {/* <img src={product.img} alt="" /> */}
+            <img src={product ? product.img : ""} alt="" />
           </Col>
           <Col md className="productInfo__content ms-lg-3">
-            <h2 className="mt-5 mt-lg-0 mb-lg-4">Fresh Strawberry</h2>
-            <span className="productInfo__star mb-3 ">
-              Star(2 customer reviews)
-            </span>
-            <h3 className="my-3 mb-4 mt-lg-4">$40.657</h3>
-            <p>
-              Sumptuous, filling, and temptingly healthy, our Biona Organic
-              Granola with Wild Berries is just the thing to get you out of bed.
-              The goodness of rolled wholegrain oats are combined with a variety
-              of tangy organic berries, and baked into crispy clusters that are
-              as nutritious.
-            </p>
+            <div>
+              <h2 className="mt-5 mt-lg-3 mb-lg-4">
+                {product ? product.title : ""}
+              </h2>
+              <span className="productInfo__star mb-3 ">
+                Star(2 customer reviews)
+              </span>
+              <h3 className="my-3 mb-4 mt-lg-4">{price}</h3>
+              <p>{product ? product.description : ""}</p>
+            </div>
+            <ProductInfoForm onAddToCart={addToCartHandler} />
           </Col>
         </Row>
       </div>

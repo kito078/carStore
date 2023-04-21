@@ -1,10 +1,13 @@
 import React from "react";
 import AvailableProducts from "./AvailableProducts";
 
-function Product() {
+function Product(props) {
+  const SaveProductHandler = (product) => {
+    props.onProduct(product);
+  };
   return (
     <div className="mt-5">
-      <AvailableProducts />
+      <AvailableProducts onSaveProduct={SaveProductHandler} />
     </div>
   );
 }

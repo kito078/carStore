@@ -2,11 +2,14 @@ import React from "react";
 import AvailableShop from "./AvailableShop";
 import Saver from "../Saver/Saver";
 
-function Shop() {
+function Shop(props) {
+  const productClickHandler = (product) => {
+    props.onSaveProduct(product);
+  };
   return (
     <div>
       <div className="container">
-        <AvailableShop />
+        <AvailableShop onProductClick={productClickHandler} />
       </div>
     </div>
   );

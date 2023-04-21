@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
 import { BsCart3 } from "react-icons/bs";
 import { FiHeart } from "react-icons/fi";
 import Brand from "../../images/brand.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
+import CartContext from "../../store/cart-context";
 
 function Navbar() {
   const [isSticky, setIsSticky] = useState(false);
@@ -25,28 +27,63 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // const cartCtx = useContext(CartContext);
+
+  // const numberOfItems = cartCtx.items.reduce((curNumber, item) => {
+  //   return curNumber + item.amount;
+  // }, 0);
+
+  const cartCtx = useContext(CartContext);
+
+  const numberOfItems = cartCtx
+    ? cartCtx.items.reduce((curNumber, item) => {
+        return curNumber + item.amount;
+      }, 0)
+    : 0;
+
   return (
     <nav className={`navbar ${isSticky ? "sticky" : ""}`}>
       <div className="nav-container ">
-        <div className="brand">
-          <img src={Brand} alt="" />
-        </div>
+        <Link to="/">
+          <div className="brand">
+            <img src={Brand} alt="" />
+          </div>
+        </Link>
+
         <div className={`menu ${isMenuOpen ? "open" : ""}`}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/" className="my-link">
+                {" "}
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/shop" className="my-link">
+                Shop
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="my-link">
+                About
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="icons ">
-          <span className="icon-container">
-            <span className="icon-num">0</span>
-            <BsCart3 />
-          </span>
-          <span className="icon-container icon-nav">
-            <span className="icon-num">0</span>
-            <FiHeart />
-          </span>
+          <Link to="/cart">
+            <span className="icon-container">
+              <span className="icon-num">{numberOfItems}</span>
+              <BsCart3 />
+            </span>
+          </Link>
+
+          <Link>
+            <span className="icon-container icon-nav">
+              <span className="icon-num">0</span>
+              <FiHeart />
+            </span>
+          </Link>
 
           <div className="toggler " onClick={toggleMenu}>
             {isMenuOpen ? <FaTimes /> : <FaBars />}

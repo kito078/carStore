@@ -26,7 +26,8 @@ html{
 
 p{
   font-size: 1.6rem;
-  color: #6f6b80;
+  /* color: #6f6b80; */
+  color: #918ca4 !important;
   
   
 }

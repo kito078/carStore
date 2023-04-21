@@ -2,13 +2,8 @@ import React from "react";
 import { Button, Row, Col } from "reactstrap";
 import Meck from "../../images/banner.png";
 import "./Banner.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { MdAddAPhoto } from "react-icons/md";
-import { SiAdobephotoshop } from "react-icons/si";
-import { SiPhotopea } from "react-icons/si";
+
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -37,12 +32,14 @@ function Banner() {
                 </p>
                 <div className="d-flex align-items-center justify-content-center justify-content-lg-start mt-5 mt-lg-3">
                   <div>
-                    <Button
-                      className="btn-button rounded-pill px-5 py-2 mb-5 mb-lg-0"
-                      color="primary"
-                    >
-                      About Me
-                    </Button>
+                    <Link to="/about">
+                      <Button
+                        className="btn-button rounded-pill px-5 py-2 mb-5 mb-lg-0"
+                        color="primary"
+                      >
+                        About Us
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </Col>

@@ -1,5 +1,5 @@
-import ImageOne from "../../images/t1.jpg";
-import ImageTwo from "../../images/t2.jpg";
+import ImageOne from "../../images/t5.jpg";
+import ImageTwo from "../../images/t50.jpg";
 import ImageThree from "../../images/t3.jpg";
 import ImageFour from "../../images/t4.jpg";
 import ImageFive from "../../images/t5.jpg";
@@ -21,34 +21,33 @@ import { AiTwotoneStar } from "react-icons/ai";
 export const PRODUCTS = [
   {
     id: 1,
-    name: "Floral Print",
+    name: "Premi Sports car",
     price: 23.44,
-    title: "Dark Mouldin' Gel",
+    title: "Premium Rims Black & Yellow For Sports car",
     description:
-      "Firm Hold, Shine, Moisturizing & Conditioning. Also great for laying hairline",
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum.",
     img: ImageFour,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 2,
-    name: "Floral Print",
+    name: "Sparco  Steering Wheel",
     price: 23.44,
-    title: "Sunlight Regular ",
+    title: "Sparco Strwhl P 222 Red Steering Wheel ",
     description:
-      "A degreasing dishwashing liquid detergent with Triple Action Power for clean and fresh-smelling dishes.",
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: ImageOne,
     stars: <AiTwotoneStar />,
     bage: "HOT",
-    bage: "NEW",
   },
   {
     id: 3,
-    name: "HANDY ANDY",
+    name: "Unik Autver Hubcaps",
     price: 23.44,
-    title: "Handy Andy Lemon ",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps ",
     description:
-      "A multipurpose cleaning cream with 100% natural cleaning particles to remove 100% of stubborn dirt and grease..",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ..",
     img: ImageThree,
     stars: <AiTwotoneStar />,
     bage: "NEW",
@@ -57,7 +56,7 @@ export const PRODUCTS = [
     id: 4,
     name: "Floral Print ",
     price: 23.44,
-    title: "Lorem ipsum dolor",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .",
     img: ImageTwo,
@@ -66,9 +65,9 @@ export const PRODUCTS = [
   },
   {
     id: 5,
-    name: "Floral Print ",
+    name: "Wheel Cover Hubcaps ",
     price: 23.44,
-    title: "Lorem ipsum dolor",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .",
     img: ImageFour,
@@ -78,9 +77,9 @@ export const PRODUCTS = [
   },
   {
     id: 6,
-    name: "Floral Print",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Lorem ipsum dolor",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.",
     img: ImageThree,
@@ -89,9 +88,9 @@ export const PRODUCTS = [
   },
   {
     id: 7,
-    name: "Floral Print ",
+    name: "Lorem ipsum dolor ",
     price: 23.44,
-    title: "Lorem ipsum dolor",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .",
@@ -102,132 +101,144 @@ export const PRODUCTS = [
 
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: ImageFive,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image1,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image2,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "TNor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image3,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image4,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "TNor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image5,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "TNor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image6,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image7,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image8,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image9,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Wheel Cover Hubcaps",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image10,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
   {
     id: 8,
-    name: "Rush",
+    name: "Unik Auto Wagon ",
     price: 23.44,
-    title: "Rush Methylated Spirits",
+    title: "Unik Auto Wagon R Wheel Cover Hubcaps",
 
-    description: "Twice distilled from Pinot Noir grape pomace..",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum..",
     img: Image11,
     stars: <AiTwotoneStar />,
     bage: "NEW",

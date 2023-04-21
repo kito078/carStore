@@ -23,7 +23,7 @@
     border-radius: 50px;
     width: 40px;
     height: 40px;
-    color: #fff;
+    color: #fff !important;
     font-size: 1.1rem;
     font-weight: 600;
     left: 20px;
@@ -54,6 +54,13 @@
 
 }
 
+.the-link{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #918ca4;
+}
+
 .productItem .card{
     border-color: #f2f2f2 !important;
 }
@@ -64,7 +71,7 @@
 }
 .productItem__header img{
     width: 230px !important;
-    height: 220px;
+    height: 220px !important;
     margin: auto;
     object-fit: contain !important;
  
