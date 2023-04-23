@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
 import { BsCart3 } from "react-icons/bs";
 import { FiHeart } from "react-icons/fi";
+import { GiFlatTire } from "react-icons/gi";
 import Brand from "../../images/brand.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -44,9 +45,10 @@ function Navbar() {
   return (
     <nav className={`navbar ${isSticky ? "sticky" : ""}`}>
       <div className="nav-container ">
-        <Link to="/">
-          <div className="brand">
-            <img src={Brand} alt="" />
+        <Link to="/" className="my-link">
+          <div className="brand d-flex">
+            <GiFlatTire />
+            <h5 className="rebate-one">REBATE</h5>
           </div>
         </Link>
 

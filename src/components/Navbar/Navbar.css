@@ -21,8 +21,10 @@ html{
   padding: 0 1rem;
   z-index: 999;
   transition: all 0.3s ease-in-out;
-
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
+
 
 .my-link {
   text-decoration: none;
@@ -62,12 +64,23 @@ html{
 }
 
 
-.brand img {
-  margin-left: 0.5rem;
-  max-width: 200px;
+.brand svg{
+  margin-left: 1rem !important;
+ font-size: 50px !important;
   margin: auto;
-  margin-top: 1.7rem;
-  object-fit: contain;
+  margin-bottom: 0.4rem !important;
+  color: #f14141 !important;
+  
+ 
+}
+
+.rebate-one{
+  font-style: italic;
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  list-style: none;
+  color: #f14141;
+  border-bottom: 0 !important;
 }
 
 .menu {
@@ -137,8 +150,8 @@ html{
 
 @media (max-width: 768px) {
   .navbar {
-   padding-top: 1.9rem !important;
-   padding-bottom: 1.9rem !important;
+   padding-top: 1rem !important;
+   padding-bottom: 1rem !important;
   
   }
   /* .icon-nav{

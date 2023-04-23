@@ -14,10 +14,19 @@
     margin-top: 8rem;
     
 }
-.footer__header img{
-    max-width: 160px;
-    margin: auto;
-}
+
+.footer-icon-one svg{
+    margin-left: 1rem !important;
+   font-size: 50px !important;
+    margin-bottom: 0.4rem !important;
+    color: #f14141 !important;
+  }
+
+  .rebate{
+    margin-top: 2.4rem;
+  }
+
+
 .footer-brand{
   font-size: 3rem;
   color: var(--color-primary);

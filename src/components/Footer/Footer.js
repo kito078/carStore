@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { ImLinkedin2 } from "react-icons/im";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsTelephoneFill } from "react-icons/bs";
+import { GiFlatTire } from "react-icons/gi";
 import { MdEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
 import footImage from "../../images/brand.png";
@@ -18,9 +19,11 @@ function Footer() {
       <div className="container">
         <Row className="align-items-center justify-content-center  text-lg-start  mx-auto  ">
           <Col lg className="footer__header ">
-            <img src={footImage} alt="" />
+            <div className="footer-icon-one d-flex">
+              <GiFlatTire /> <h5 className="rebate">Rebate</h5>
+            </div>
             <p className="ms-3 mt-4 text-start">
-              Copyright &copy; 2020 Mosh Hamedani
+              Copyright &copy; 2020 Kito kessian
             </p>
             <div className="my-5">
               <span className="footer-icon mx-2">
