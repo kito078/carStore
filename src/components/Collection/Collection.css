@@ -33,7 +33,8 @@
 
 .collection__page{
     position: absolute;
-    background: #f76868 ;
+    background: #ee7474 ;
+    /* background: var(--color-secondary) ; */
     width: 40px;
     height: 40px;
     border-radius: 100%;

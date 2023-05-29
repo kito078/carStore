@@ -13,6 +13,7 @@ import About from "./components/About/About";
 import Cart from "./components/Cart/Cart";
 import CartProvider from "./store/CartProvider";
 import ProductInfoForm from "./components/ProductInfo/ProductInfoForm";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -42,6 +43,7 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </Router>
 

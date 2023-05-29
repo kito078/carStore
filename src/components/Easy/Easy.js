@@ -10,9 +10,9 @@ function Easy() {
     <div className="easy mt-5 pt-3 pt-lg-3">
       <div className="container">
         <Row className="easy__section align-items-center justify-items-center mt-5 mt-lg-0  ms-2 ms-lg-0">
-          <Col md className="easy__body">
+          <Col md className="easy__body ">
             <h3>Join Now and Earn 5% On Every Order</h3>
-            <div className="d-flex  ">
+            <div className="d-flex text-center">
               <span className="mt-4">$350.000 </span>
               <span className="mt-4 ms-4">
                 <del>$405.454</del>
