@@ -11,10 +11,11 @@ import CartContext from "../../store/cart-context";
 import { useEffect } from "react";
 
 function Blog() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const cartCtx = useContext(CartContext);
+  console.log(cartCtx.blogs);
 
   // cartCtx.blogs.map((item) => console.log(item.id));
   return (
@@ -28,7 +29,7 @@ function Blog() {
       <div class="container recent ">
         <div class="recent__image-section ">
           {/* <img src= alt=""> */}
-          <img src={Bmage} alt="" />
+          <img src={cartCtx.blogs.blogItems.img} alt="" />
           <div className="container views d-none">
             <div className=" d-flex align-items-center justify-content-center">
               <BiTimeFive />
@@ -49,7 +50,7 @@ function Blog() {
           <div>
             <div class="recent-post mb-0 pb-0">
               <div class="recent__header">
-                <img src={Bmage} alt="" />
+                <img src={cartCtx.blogs.blogItems.img2} alt="" />
               </div>
               <div class="content-section ">
                 <h2 class="post-date">23 January, 2023</h2>
@@ -117,7 +118,7 @@ function Blog() {
         </p>
         <div class="recent__image-section popular__image my-5">
           {/* <img src= alt=""> */}
-          <img src={Bmage} alt="" />
+          <img src={cartCtx.blogs.blogItems.img2} alt="" />
           <h3 className="mt-4">High quality for timely markets.</h3>
         </div>
         <p>
@@ -138,7 +139,7 @@ function Blog() {
       </div>
       <div className="container blog__avatar ps-4 mt-5 ">
         <div className="blog__avatar__header mt-3">
-          <img src={Bmage3} alt="" />
+          <img src={cartCtx.blogs.blogItems.img3} alt="" />
         </div>
         <div className="blog__avatar__body ms-4 mt-3">
           <h2>amet consectetur</h2>

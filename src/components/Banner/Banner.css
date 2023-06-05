@@ -125,12 +125,15 @@ img{
 }
 
 .btn-button{
-    font-size: 1.8rem !important;
+    font-size: 1.7rem !important;
     padding-bottom: 1rem !important;
     background: #e6e8ea !important;
     border: 1px solid #f14141!important;
     transition: all 0.3s ease-in;
     color: #f14141;
+    font-weight: 500 !important;
+    padding: 1rem 5.4rem !important;
+    padding-bottom: 1.5rem !important;
 }
 .btn-button:hover{
     color:#fff!important;
@@ -145,7 +148,7 @@ img{
 .b-icon{
     margin-left: 1.5rem !important;
 }
- @media screen and (min-width: 992px){ 
+ @media screen and (min-width: 768px){ 
     .banner__body{
         display: grid;
         grid-template-columns: 1fr 1fr;

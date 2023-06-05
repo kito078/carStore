@@ -45,14 +45,18 @@
 .read-more {
     background: none !important;
     border: none !important;
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 600 !important;
     color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.read-more:hover {
+    color: #000;
+   
 }
 span.read-more__arrow svg{
-  
     font-size: 2rem !important;
-   
 }
 
 .brandingItem img{
@@ -66,10 +70,10 @@ span.read-more__arrow svg{
 }
 
 .brandingItem__body h3{
-    color: #000;
-    font-weight: 500;
+    color: #5c5a5a;
+    font-weight: 800 !important;
     margin-top: 1.7rem;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 }
 .brandingItem__body p{
     font-size: 1.4rem;

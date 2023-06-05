@@ -71,35 +71,6 @@ function Cart(props) {
             </div>
           )}
         </ul>
-        {/* <Row className="d-flex">
-          <Col>
-            <h3 className="cart-price">4353</h3>
-          </Col>
-          <Col>
-            <h3>Total Amount</h3>
-          </Col>
-        </Row> */}
-        {/* <Row>
-          <Col></Col>
-          <Col>
-            <div className="d-flex justify-content-end">
-              <Button
-                onClick={props.onClose}
-                className="btn-button rounded-pill px-5 py-2"
-                color="primary"
-              >
-                close
-              </Button>
-
-              <Button
-                className="btn-button rounded-pill px-5 py-2"
-                color="primary"
-              >
-                Order
-              </Button>
-            </div>
-          </Col>
-        </Row> */}
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ import Testimonial from "../Testimonial/Testimonial";
 import Category from "../Category/Category";
 import "./Home.css";
 import Collection from "../Collection/Collection";
+import WeekSave from "../WeekSave/WeekSave";
 
 function Home(props) {
   const onProductHandler = (product) => {
@@ -25,8 +26,8 @@ function Home(props) {
       <div className="container">
         <DealsCard />
       </div>
-      {/* <Category /> */}
-      <Easy />
+
+      <WeekSave />
       <div className="container">
         <FeatureOne />
         <Product onProduct={onProductHandler} />
@@ -35,6 +36,7 @@ function Home(props) {
       </div>
 
       <Newsletter />
+
       <div className="container">
         <Category />
         <Collection />

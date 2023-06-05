@@ -1,0 +1,47 @@
+.weekSave__container{
+  background: #000;
+}
+  .image {
+    max-width:  700px; /* Set the desired width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add some spacing between the image and text */
+  }
+  
+
+  .weekSave__body h2{
+    font-size: 2.9rem;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .weekSave__body h3{
+    font-size: 2.4rem;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .weekSave__body h5{
+    font-size: 1.8rem;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  @media screen and (min-width: 992px){ 
+    .weekSave__body h2{
+      font-size: 4.3rem;
+      font-weight: bold !important;
+      text-transform: uppercase;
+    }
+    .weekSave__body h3{
+      font-size: 3.6rem;
+      font-weight: bold !important;
+      text-transform: uppercase;
+    }
+    .weekSave__body h5{
+      font-size: 2rem;
+      font-weight: 400 !important;
+      text-transform: uppercase;
+    }
+  
+  }

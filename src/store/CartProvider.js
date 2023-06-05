@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React, { useReducer, useState } from "react";
 import CartContext from "./cart-context";
 
 const defaultCartState = {
@@ -73,6 +73,7 @@ const cartReducer = (state, action) => {
 };
 
 function CartProvider(props) {
+  const [blog, setBlog] = useState([]);
   const [cartState, dipatchCartAction] = useReducer(
     cartReducer,
     defaultCartState
@@ -85,11 +86,17 @@ function CartProvider(props) {
     dipatchCartAction({ type: "REMOVE", id: id });
   };
 
+  const blogHandler = (blogItems) => {
+    setBlog({ blogItems });
+  };
+
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemToHandler,
     removeItem: removeItemFromHandler,
+    blogItem: blogHandler,
+    blogs: blog,
   };
   //console.log(totalAmount);
   return (
