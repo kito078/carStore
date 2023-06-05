@@ -49,7 +49,7 @@ const DealsCard = ({ product }) => {
             </Col>
           </Row>
         </Col>
-        <Col md className=" my-5 my-md-0">
+        <Col md className=" mb-5 mb-md-0">
           <Row className="deal align-items-center justify-content-center">
             <Col lg>
               <div className="deals__image my-4">
