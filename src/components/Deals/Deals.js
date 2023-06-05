@@ -18,104 +18,61 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const DealsCard = ({ product }) => {
   return (
-    <Card className="deals mt-5">
+    <div className="deals mt-5">
       <Row className="">
-        <Col md>
-          <Row className="deal">
+        <Col md className="deal__holder">
+          <Row className="deal align-items-center justify-content-center">
             <Col lg>
-              <Card className="deals__image my-5">
+              <div className="deals__image my-5 my-md-4">
                 <div className="deals-badge">
                   <h5>-15%</h5>
                 </div>
                 <img src={Chair} alt="" />
-              </Card>
+              </div>
             </Col>
             <Col lg>
               <CardBody className="deals__body mb-5 text-center text-lg-start">
-                <CardTitle className="deals__body-title mb-3 my-lg-5 mb-lg-4">
-                  <h5>Motul 4100 Power 5W30 3L.</h5>
+                <CardTitle className="deals__body-title mb-3 my-lg-0 mb-lg-0">
+                  <h5>New Car Tyres from China.</h5>
                 </CardTitle>
                 <CardSubtitle className="deals__text">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                  <p>Lorem ipsum dolor.</p>
                 </CardSubtitle>
-                <div className="star__wrap d-flex mx-5 mx-lg-0 align-items-center justify-content-between">
-                  <CardText className="deal-star">
-                    <span>
-                      <BsStarFill />
-                    </span>
-                    <span>
-                      <BsStarFill />
-                    </span>
-                    <span>
-                      <BsStarFill />
-                    </span>
-                    <span>
-                      <BsStarFill />
-                    </span>
-                  </CardText>
-                  <CardText className="deals__price">
-                    <h5>$89.99</h5>
-                  </CardText>
-                </div>
-                <Button className="read-more ps-0 py-2 mb-5 mb-lg-0 mt-lg-0">
-                  Add To Cart{" "}
-                  <span className="read-more__arrow">
-                    <BsArrowRightShort />
-                  </span>
-                </Button>
+
+                {/* <Button
+                  className="btn-button rounded-pill px-5 py-2  mb-5 mb-lg-0"
+                  color="primary"
+                >
+                  About Us
+                </Button> */}
               </CardBody>
             </Col>
           </Row>
         </Col>
         <Col md>
-          <Row className="deal">
+          <Row className="deal align-items-center justify-content-center">
             <Col lg>
-              <Card className="deals__image my-5">
+              <div className="deals__image my-4">
                 <div className="deals-badge">
                   <h5>-15%</h5>
                 </div>
                 <img src={Chair2} alt="" />
-              </Card>
+              </div>
             </Col>
             <Col lg>
               <CardBody className="deals__body mp-5 text-center text-lg-start">
-                <CardTitle className="deals__body-title mb-3 my-lg-5 mb-lg-4">
-                  <h5>Jeep Patriot 17 Inch Steel Rims.</h5>
+                <CardTitle className="deals__body-title mb-3 my-lg-0 mb-lg-0">
+                  <h5>New Car Tyres from China.</h5>
                 </CardTitle>
                 <CardSubtitle className="deals__text">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                  <p>Lorem ipsum dolor.</p>
                 </CardSubtitle>
-                <div className="star__wrap  mx-5 mx-lg-0 d-flex align-items-center justify-content-between">
-                  <CardText className="deal-star">
-                    <span>
-                      <BsStarFill />
-                    </span>
-                    <span>
-                      <BsStarFill />
-                    </span>
-                    <span>
-                      <BsStarFill />
-                    </span>
-                    <span>
-                      <BsStarFill />
-                    </span>
-                  </CardText>
-                  <CardText className="deals__price">
-                    <h5>$89.99</h5>
-                  </CardText>
-                </div>
-                <Button className="read-more ps-0 py-2 mb-5 mb-lg-0 mt-lg-0">
-                  Add To Cart{" "}
-                  <span className="read-more__arrow">
-                    <BsArrowRightShort />
-                  </span>
-                </Button>
               </CardBody>
             </Col>
           </Row>
         </Col>
       </Row>
-    </Card>
+    </div>
   );
 };
 
