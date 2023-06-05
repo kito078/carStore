@@ -47,7 +47,7 @@ function Branding() {
   // const receiveItemHandler = (item) => {
   // };
   const brandItems = newBrand.map((item) => (
-    <Col key={item.id} onClick={() => cartCtx.blogItem(item)}>
+    <Col sm key={item.id} onClick={() => cartCtx.blogItem(item)}>
       <BrandingItem
         img={item.img}
         title={item.title}

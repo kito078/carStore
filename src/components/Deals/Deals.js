@@ -20,10 +20,10 @@ const DealsCard = ({ product }) => {
   return (
     <div className="deals mt-5">
       <Row className="mx-2 mx-md-0">
-        <Col md className="deal__holder my-5 my-md-0">
+        <Col sm className="deal__holder my-5 my-md-0">
           <Row className="deal align-items-center justify-content-center">
             <Col lg>
-              <div className="deals__image my-5 my-md-4">
+              <div className="deals__image my-4 my-md-4">
                 <div className="deals-badge">
                   <h5>-15%</h5>
                 </div>
@@ -49,7 +49,7 @@ const DealsCard = ({ product }) => {
             </Col>
           </Row>
         </Col>
-        <Col md className=" mb-5 mb-md-0">
+        <Col sm className=" mb-5 mt-5 mt-md-0 mb-md-0">
           <Row className="deal align-items-center justify-content-center">
             <Col lg>
               <div className="deals__image my-4">
