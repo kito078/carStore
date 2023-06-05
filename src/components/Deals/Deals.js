@@ -19,8 +19,8 @@ import { BsArrowRightShort } from "react-icons/bs";
 const DealsCard = ({ product }) => {
   return (
     <div className="deals mt-5">
-      <Row className="">
-        <Col md className="deal__holder">
+      <Row className="mx-2 mx-md-0">
+        <Col md className="deal__holder my-5 my-md-0">
           <Row className="deal align-items-center justify-content-center">
             <Col lg>
               <div className="deals__image my-5 my-md-4">
@@ -31,7 +31,7 @@ const DealsCard = ({ product }) => {
               </div>
             </Col>
             <Col lg>
-              <CardBody className="deals__body mb-5 text-center text-lg-start">
+              <CardBody className="deals__body mb-5 text-start  ms-4 ms-md-0">
                 <CardTitle className="deals__body-title mb-3 my-lg-0 mb-lg-0">
                   <h5>New Car Tyres from China.</h5>
                 </CardTitle>
@@ -49,7 +49,7 @@ const DealsCard = ({ product }) => {
             </Col>
           </Row>
         </Col>
-        <Col md>
+        <Col md className=" my-5 my-md-0">
           <Row className="deal align-items-center justify-content-center">
             <Col lg>
               <div className="deals__image my-4">
@@ -60,7 +60,7 @@ const DealsCard = ({ product }) => {
               </div>
             </Col>
             <Col lg>
-              <CardBody className="deals__body mp-5 text-center text-lg-start">
+              <CardBody className="deals__body mb-5 text-start ms-4 ms-md-0">
                 <CardTitle className="deals__body-title mb-3 my-lg-0 mb-lg-0">
                   <h5>New Car Tyres from China.</h5>
                 </CardTitle>
