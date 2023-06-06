@@ -1,6 +1,6 @@
 import React from "react";
-import Chair from "../../images/t5.jpg";
-import Chair2 from "../../images/t11.jpg";
+import Chair from "../../images/rim1.png";
+import Chair2 from "../../images/rim2.png";
 import "./Deal.css";
 import {
   Card,
