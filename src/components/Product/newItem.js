@@ -16,9 +16,60 @@ import Image9 from "../../images/t9.jpg";
 import Image10 from "../../images/t10.jpg";
 import Image11 from "../../images/t11.jpg";
 
+import Image16 from "../../images/rom1.png";
+import Image12 from "../../images/rom2.png";
+import Image13 from "../../images/rom3.png";
+import Image14 from "../../images/rom4.png";
+import Image15 from "../../images/rom5.png";
+
 import { AiTwotoneStar } from "react-icons/ai";
 
 export const PRODUCTS = [
+  {
+    id: 1,
+    name: "Premi Sports car",
+    price: 23.44,
+    title: "Premium Rims Black & Yellow For Sports car",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    img: Image16,
+    stars: <AiTwotoneStar />,
+    bage: "NEW",
+  },
+  {
+    id: 1,
+    name: "Premi Sports car",
+    price: 23.44,
+    title: "Premium Rims Black & Yellow For Sports car",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    img: Image12,
+    stars: <AiTwotoneStar />,
+    bage: "NEW",
+  },
+  {
+    id: 1,
+    name: "Premi Sports car",
+    price: 23.44,
+    title: "Premium Rims Black & Yellow For Sports car",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    img: Image13,
+    stars: <AiTwotoneStar />,
+    bage: "NEW",
+  },
+  {
+    id: 1,
+    name: "Premi Sports car",
+    price: 23.44,
+    title: "Premium Rims Black & Yellow For Sports car",
+    description:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    img: Image14,
+    stars: <AiTwotoneStar />,
+    bage: "NEW",
+  },
+
   {
     id: 1,
     name: "Premi Sports car",
