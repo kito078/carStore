@@ -6,7 +6,7 @@ function WeekSave() {
   return (
     <div className="weekSave__container py-5">
       <div className="container ">
-        <div className="d-flex flex-md-row text-center  flex-column align-items-center justify-content-center">
+        <div className="d-flex flex-md-row text-center  flex-column align-items-center justify-content-center ">
           <div>
             <img
               className="image"
