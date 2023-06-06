@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import ImageOne from "../../images/bottle.jpg";
 import "./ProductInfo.css";
 import { Button, Row, Col, ButtonGroup } from "reactstrap";
@@ -7,6 +7,10 @@ import CartContext from "../../store/cart-context";
 
 function ProductInfo({ product }) {
   const [text, setText] = useState({ title: "", desc: "" });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const cartCtx = useContext(CartContext);
 
