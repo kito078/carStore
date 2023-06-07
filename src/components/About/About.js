@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import "./About.css";
 import Feature2 from "../Feature/Feature";
 import FeatureOne from "../FeatureOne/FeatureOne";
@@ -6,6 +6,9 @@ import Team from "../Team/Team";
 import About2 from "../../images/abt.jpg";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <div className="blog-container">
