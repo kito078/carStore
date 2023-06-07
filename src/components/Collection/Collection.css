@@ -18,12 +18,14 @@
 
 .collection__image img{
     max-width: 200px;
+    height: 115px;
     margin: auto;
+    object-fit: contain;
 }
 
 .collection__title{
     font-size: 1.4rem !important;
-    font-weight: 300 !important;
+    font-weight: 600 !important;
     color: #555;
 }
 
