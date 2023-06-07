@@ -25,13 +25,13 @@ function Collection() {
               </Col>
               <Col>
                 <h5 className="collection__title mb-3">Black For Sports car</h5>
-                <span className="my">
-                  <BsFillStarFill />
-                </span>
                 <h5 className="productItem__price collection__price mt-3">
                   <span className="price__main">$87.88</span>{" "}
                   <del className="price__del ms-4">$90.99</del>
                 </h5>
+                <span className="my">
+                  <BsFillStarFill />
+                </span>
               </Col>
             </Row>
           </div>
@@ -49,13 +49,13 @@ function Collection() {
                 <h5 className="collection__title mb-3">
                   Rims Red & Black For Sports
                 </h5>
-                <span className="my">
-                  <BsFillStarFill />
-                </span>
                 <h5 className="productItem__price collection__price mt-3">
                   <span className="price__main">$87.88</span>{" "}
                   <del className="price__del ms-4">$90.99</del>
                 </h5>
+                <span className="my">
+                  <BsFillStarFill />
+                </span>
               </Col>
             </Row>
           </div>
@@ -71,13 +71,13 @@ function Collection() {
               </Col>
               <Col>
                 <h5 className="collection__title mb-3">Black For Sports car</h5>
-                <span className="my">
-                  <BsFillStarFill />
-                </span>
                 <h5 className="productItem__price collection__price mt-3">
                   <span className="price__main">$87.88</span>{" "}
                   <del className="price__del ms-4">$90.99</del>
                 </h5>
+                <span className="my">
+                  <BsFillStarFill />
+                </span>
               </Col>
             </Row>
           </div>
@@ -97,13 +97,13 @@ function Collection() {
                 <h5 className="collection__title mb-3">
                   Custom Premium Rims Red
                 </h5>
-                <span className="my">
-                  <BsFillStarFill />
-                </span>
                 <h5 className="productItem__price collection__price mt-3">
                   <span className="price__main">$87.88</span>{" "}
                   <del className="price__del ms-4">$90.99</del>
                 </h5>
+                <span className="my">
+                  <BsFillStarFill />
+                </span>
               </Col>
             </Row>
           </div>
@@ -119,13 +119,13 @@ function Collection() {
               </Col>
               <Col>
                 <h5 className="collection__title mb-3">Black For Sports car</h5>
-                <span className="my">
-                  <BsFillStarFill />
-                </span>
                 <h5 className="productItem__price collection__price mt-3">
                   <span className="price__main">$87.88</span>{" "}
                   <del className="price__del ms-4">$90.99</del>
                 </h5>
+                <span className="my">
+                  <BsFillStarFill />
+                </span>
               </Col>
             </Row>
           </div>
@@ -143,13 +143,13 @@ function Collection() {
                 <h5 className="collection__title mb-3">
                   Custom Premium Rims Red
                 </h5>
-                <span className="my">
-                  <BsFillStarFill />
-                </span>
                 <h5 className="productItem__price collection__price mt-3">
                   <span className="price__main">$87.88</span>{" "}
                   <del className="price__del ms-4">$90.99</del>
                 </h5>
+                <span className="my">
+                  <BsFillStarFill />
+                </span>
               </Col>
             </Row>
           </div>
