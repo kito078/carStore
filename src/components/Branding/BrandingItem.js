@@ -20,7 +20,7 @@ function BrandingItem(props) {
         <div className="brandingItem__body">
           <h3>{props.title}</h3>
           <p>{props.desc}</p>
-          <Button className="read-more ps-0 py-2 mb-5 mb-lg-0 mt-lg-0">
+          <Button className="read-more ps-0 py-2  mb-lg-0 mt-lg-0">
             Read More{" "}
             <span className="read-more__arrow">
               <BsArrowRightShort />
