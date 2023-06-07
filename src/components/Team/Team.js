@@ -18,7 +18,7 @@ function Feature2() {
       <Row className="mt-5">
         {teamData.map((item) => {
           return (
-            <Col lg>
+            <Col md>
               <Card
                 className="feature2__card text-center"
                 body
