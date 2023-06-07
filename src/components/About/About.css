@@ -67,7 +67,7 @@
       }
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .about__text h2{
         margin-left: 0;
     
