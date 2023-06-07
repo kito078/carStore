@@ -67,3 +67,12 @@
       }
   }
   
+  @media (min-width: 768px) {
+    .about__text h2{
+        margin-left: 0;
+    
+      }
+    .about__text p{
+        margin-left: 0;
+      }
+  }
