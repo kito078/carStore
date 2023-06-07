@@ -51,6 +51,9 @@
     max-width: 400px;
     margin: auto;
 }
+.feature2__card p{
+    font-size: 1.6rem;
+}
 
 
 @media screen and (min-width: 992px){ 

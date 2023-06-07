@@ -7,12 +7,13 @@ import Team from "../Team/Team";
 function About() {
   return (
     <Fragment>
-      <div className="showcase p-5">
-        <div className="container mt-3">
-          <h2 className="mb-4">About</h2>
-          <h5 className="">Home | Service</h5>
+      <div className="blog-container">
+        <div className="blog-container-content">
+          <h2 className="mb-4">About Details Right Sidebar.</h2>
+          <h5>About Details About Details Right Sidebar</h5>
         </div>
       </div>
+
       <div className="container">
         <Feature2 />
         <Team />
