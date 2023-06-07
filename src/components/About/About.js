@@ -19,9 +19,9 @@ function About() {
           <div className="about__image">
             <img src={About2} alt="Image" />
           </div>
-          <div className="about__text">
-            <h2>We Are Always Ready To Assist Our Clients</h2>
-            <p>
+          <div className="about__text ">
+            <h2 className="mx-3">We Are Always Ready To Assist Our Clients</h2>
+            <p className="mx-3">
               Automotive’s four Frederick locations continues its 20++ plus
               years tradition of quality auto repair services. ehicle owners in
               the ederick, MD area should be well aware of the Dynamic
